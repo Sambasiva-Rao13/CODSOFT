@@ -16,9 +16,9 @@ def div(x, y):
 
 while True:
     num1 = float(input("Enter the first number: "))
-    op = input("Enter the operation (+, -, *, /): ")
     num2 = float(input("Enter the second number: "))
-
+    op = input("Enter the operation (+, -, *, /): ")
+    
     if op == "+":
         result = add(num1, num2)
     elif op == "-":
